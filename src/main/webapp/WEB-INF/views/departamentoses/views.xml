@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="departamentoses/list">
+        <put-attribute name="body" value="/WEB-INF/views/departamentoses/list.jspx"/>
+    </definition>
+<definition extends="default" name="departamentoses/show">
+        <put-attribute name="body" value="/WEB-INF/views/departamentoses/show.jspx"/>
+    </definition>
+<definition extends="default" name="departamentoses/create">
+        <put-attribute name="body" value="/WEB-INF/views/departamentoses/create.jspx"/>
+    </definition>
+<definition extends="default" name="departamentoses/update">
+        <put-attribute name="body" value="/WEB-INF/views/departamentoses/update.jspx"/>
+    </definition>
+</tiles-definitions>

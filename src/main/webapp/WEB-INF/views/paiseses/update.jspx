@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_co_com_paisesmodel_dominio_Paises" modelAttribute="paises" path="/paiseses" versionField="Version" z="GQcxvaS4wnNfMjLJrAkSwu/6h4w=">
+        <field:input field="codigoPais" id="c_co_com_paisesmodel_dominio_Paises_codigoPais" required="true" z="7FNGZNVo6rbVwO1JoT4y6+z9A9I="/>
+        <field:textarea field="nombrePais" id="c_co_com_paisesmodel_dominio_Paises_nombrePais" required="true" z="r78MffwQL9/C4PuAOZqDyZS/2sM="/>
+        <field:simple field="departamentos" id="c_co_com_paisesmodel_dominio_Paises_departamentos" messageCode="entity_reference_not_managed" messageCodeAttribute="Departamentos" z="2PFyY+SFDhvEvELT8W+jpoV3gFM="/>
+        <field:simple field="ciudades" id="c_co_com_paisesmodel_dominio_Paises_ciudades" messageCode="entity_reference_not_managed" messageCodeAttribute="Ciudad" z="qM6iLNFsJv51CdTwh+B7oWVUbGY="/>
+    </form:update>
+</div>

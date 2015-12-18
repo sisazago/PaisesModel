@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_co_com_paisesmodel_dominio_Departamentos" items="${departamentoses}" z="nS1TguFabaOsZjHdyUE6UKoI0DI=">
+        <table:table data="${departamentoses}" id="l_co_com_paisesmodel_dominio_Departamentos" path="/departamentoses" z="1bcyiBIwIm6mdCz6cwQoFVa35xw=">
+            <table:column id="c_co_com_paisesmodel_dominio_Departamentos_codigoDepartamento" property="codigoDepartamento" z="jM5x2ATji3AFYw02CCI+451DH0k="/>
+            <table:column id="c_co_com_paisesmodel_dominio_Departamentos_nombreDepartamento" property="nombreDepartamento" z="4a4SFLV5L26Jq9u1durTXOVFO3k="/>
+        </table:table>
+    </page:list>
+</div>

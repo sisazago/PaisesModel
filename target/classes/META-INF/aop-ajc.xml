@@ -1,0 +1,42 @@
+<aspectj>
+<aspects>
+<aspect name="co.com.paisesmodel.services.PaisesServiceImpl_Roo_Service"/>
+<aspect name="co.com.paisesmodel.services.PersonasService_Roo_Service"/>
+<aspect name="co.com.paisesmodel.dominio.Departamentos_Roo_Jpa_ActiveRecord"/>
+<aspect name="co.com.paisesmodel.dominio.Departamentos_Roo_JavaBean"/>
+<aspect name="co.com.paisesmodel.dominio.Departamentos_Roo_Configurable"/>
+<aspect name="co.com.paisesmodel.dominio.Personas_Roo_JavaBean"/>
+<aspect name="co.com.paisesmodel.dominio.Paises_Roo_Jpa_Entity"/>
+<aspect name="co.com.paisesmodel.controller.PersonasController_Roo_Controller"/>
+<aspect name="co.com.paisesmodel.dominio.Personas_Roo_Json"/>
+<aspect name="co.com.paisesmodel.dominio.Personas_Roo_ToString"/>
+<aspect name="co.com.paisesmodel.dominio.Ciudad_Roo_Jpa_Entity"/>
+<aspect name="co.com.paisesmodel.dominio.Departamentos_Roo_Json"/>
+<aspect name="co.com.paisesmodel.controller.CiudadController_Roo_Controller"/>
+<aspect name="co.com.paisesmodel.dominio.Ciudad_Roo_Json"/>
+<aspect name="co.com.paisesmodel.dominio.Departamentos_Roo_ToString"/>
+<aspect name="co.com.paisesmodel.dominio.Personas_Roo_Jpa_Entity"/>
+<aspect name="co.com.paisesmodel.dominio.Ciudad_Roo_Configurable"/>
+<aspect name="co.com.paisesmodel.services.PersonasServiceImpl_Roo_Service"/>
+<aspect name="co.com.paisesmodel.dominio.Departamentos_Roo_Jpa_Entity"/>
+<aspect name="co.com.paisesmodel.dominio.Personas_Roo_Jpa_ActiveRecord"/>
+<aspect name="co.com.paisesmodel.services.DepartamentosServiceImpl_Roo_Service"/>
+<aspect name="co.com.paisesmodel.dominio.Paises_Roo_ToString"/>
+<aspect name="co.com.paisesmodel.services.CiudadServiceImpl_Roo_Service"/>
+<aspect name="co.com.paisesmodel.dominio.Paises_Roo_Json"/>
+<aspect name="co.com.paisesmodel.controller.DepartamentosController_Roo_Controller"/>
+<aspect name="co.com.paisesmodel.services.DepartamentosService_Roo_Service"/>
+<aspect name="co.com.paisesmodel.services.PaisesService_Roo_Service"/>
+<aspect name="co.com.paisesmodel.dominio.Paises_Roo_Jpa_ActiveRecord"/>
+<aspect name="co.com.paisesmodel.services.CiudadService_Roo_Service"/>
+<aspect name="co.com.paisesmodel.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="co.com.paisesmodel.dominio.Personas_Roo_Configurable"/>
+<aspect name="co.com.paisesmodel.dominio.Paises_Roo_Configurable"/>
+<aspect name="co.com.paisesmodel.controller.PaisesController_Roo_Controller"/>
+<aspect name="co.com.paisesmodel.dominio.Ciudad_Roo_JavaBean"/>
+<aspect name="co.com.paisesmodel.dominio.Paises_Roo_JavaBean"/>
+<aspect name="co.com.paisesmodel.dominio.Ciudad_Roo_Jpa_ActiveRecord"/>
+<aspect name="co.com.paisesmodel.dominio.Ciudad_Roo_ToString"/>
+</aspects>
+</aspectj>
+

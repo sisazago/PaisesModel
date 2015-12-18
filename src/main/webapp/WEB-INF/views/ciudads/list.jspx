@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_co_com_paisesmodel_dominio_Ciudad" items="${ciudads}" z="B7TdD9RUiQylyv3Hy8pmiywWRvE=">
+        <table:table data="${ciudads}" id="l_co_com_paisesmodel_dominio_Ciudad" path="/ciudads" z="IBORBrWPNwDJM+GsTAVEx5hGh3g=">
+            <table:column id="c_co_com_paisesmodel_dominio_Ciudad_codigoCiudad" property="codigoCiudad" z="l5BP+7TaSDU7Xb+l+CSaySQDe6k="/>
+            <table:column id="c_co_com_paisesmodel_dominio_Ciudad_nombreCiudad" property="nombreCiudad" z="Q6pLcyzdCsVpLUMsZxJRLJ9qIHo="/>
+        </table:table>
+    </page:list>
+</div>
